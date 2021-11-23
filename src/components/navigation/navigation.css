@@ -1,0 +1,36 @@
+@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.primary-navigation {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  justify-items: center;
+}
+
+.navbar {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sign-up {
+  text-align: end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sign-in-text {
+  margin-right: 16px;
+}
+
+.sign-up-btn {
+  background-color: #FF4820;
+  border-radius: 5px;
+  padding-block: 1.5em;
+  padding-inline: 2em;
+  border: none;
+}
+/*# sourceMappingURL=navigation.css.map */

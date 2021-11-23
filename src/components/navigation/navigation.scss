@@ -1,0 +1,30 @@
+@import '../../App.css';
+
+.primary-navigation {
+    flex-wrap: nowrap;
+    justify-items: center;
+}
+
+.navbar {
+    width: 100%;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sign-up {
+    text-align: end;
+    flex-grow: 1;
+}
+
+.sign-in-text {
+    margin-right: 16px;
+}
+
+.sign-up-btn {
+    background-color: #FF4820;
+    border-radius: 5px;
+    padding-block: 1.5em;
+    padding-inline: 2em;
+    border: none;
+
+}
