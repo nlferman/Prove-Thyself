@@ -1,6 +1,8 @@
+@import './CSS-Resources/colors.css';
+
 .App {
   text-align: center;
-  background-color: #040C18;
+  background-color: $background-color;
   width: 90vw;
   height: 100%;
   color: white;

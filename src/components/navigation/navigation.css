@@ -1,8 +1,20 @@
 @import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
-.primary-navigation {
+.nav-container {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primary-navigation {
+  float: left;
+  list-style: none;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar {
@@ -15,11 +27,20 @@
           flex-grow: 1;
 }
 
+.navigation-text {
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Manrope, sans-serif;
+  font-size: 1em;
+  color: white;
+}
+
 .sign-up {
-  text-align: end;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
 }
 
 .sign-in-text {
@@ -32,5 +53,6 @@
   padding-block: 1.5em;
   padding-inline: 2em;
   border: none;
+  color: white;
 }
 /*# sourceMappingURL=navigation.css.map */
