@@ -1,13 +1,15 @@
-@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\CSS-Resources\colors.css);
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap%27");
 .App {
   text-align: center;
-  background-color: #040C18;
-  width: 90vw;
   height: 100%;
   color: white;
   padding-left: 5vw;
   padding-right: 5vw;
   padding-top: 3em;
+  font-family: manrope, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: radial-gradient(circle at 0% 0%, #002853 0%, #002853 0%, #040c18 50%);
 }
 
 .flex {
@@ -15,5 +17,32 @@
   display: -ms-flexbox;
   display: flex;
   gap: var(--gap, 3em);
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gradient-bg {
+  background-color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+
+.gradient-text {
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-line {
+  border-image-source: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  border-image-slice: 1;
+  width: clamp(20px, 2vw, 40px);
+  margin-bottom: 1vh;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,63 @@
+@import '../../CSS-Resources/colors.scss';
+@import '../../App.css';
+
+.gtp-container {
+    // width: 85%;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-right: 0;
+    padding: 3em;
+    filter: none;
+
+    label {
+        font-size: clamp(0.8em, 1.5vw, 1.5em);
+    }
+    
+    p {
+        color: $description-text;
+        font-size: clamp(0.8em, 1vw, 1em);
+        padding-inline-end: 20%;
+    }
+}
+
+.gtp-background {
+    filter: blur();
+    &-bg {
+        background: radial-gradient(circle at 100% 100%, #042Cf4 0%, #1878de 0%, #0000003f 20%), radial-gradient(circle at 0% 0%, #042Cf4 0%, #1878de 0%, $background-color-block-trans 10%);
+        background-color: $background-color-block;
+     }
+}
+
+.what-is-container {
+    // gap: 0em;
+    text-align: left;
+    justify-items: left;
+}
+
+.what-is-title {
+    width: 50%;
+    gap: 0;
+}
+
+.possibilities-container {
+    justify-content: space-between;
+
+    .possibilities-text {
+        font-size: clamp(1.4em, 2vw, 2em);
+        text-align: left;
+        font-weight: 800;
+        width: 33%;
+    }
+
+    a {
+        color: $secondary-links;
+        text-decoration: none;
+        font-size: clamp(0.7em, 1vw, 1em);
+        padding-inline-end: 10%;
+    }
+}
+
+.extras-container {
+    text-align: left;
+    gap: 1em;
+}

@@ -1,17 +1,47 @@
-@import './CSS-Resources/colors.css';
+@import './CSS-Resources/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap%27');
 
 .App {
   text-align: center;
-  background-color: $background-color;
-  width: 90vw;
+  // background-color: $background-color;
+  // width: 90vw;
   height: 100%;
   color: white;
   padding-left: 5vw;
   padding-right: 5vw;
   padding-top: 3em;
+  font-family: manrope, sans-serif;
+  box-sizing: border-box;
+  background:radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 50%);
 }
 
 .flex {
   display: flex;
   gap: var(--gap, 3em);
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gradient {
+  &-bg {
+    background-color: $gradient-color;
+  }
+
+  &-text {
+    
+  background: $gradient-color;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  &-line {
+    border-image-source: $gradient-color;
+    border-image-slice: 1;
+    width: clamp(20px, 2vw, 40px);
+    margin-bottom: 1vh;
+    margin-inline-start: 0;
+  }
 }

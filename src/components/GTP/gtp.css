@@ -1,0 +1,70 @@
+@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.gtp-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2em;
+  margin-right: 0;
+  padding: 3em;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.gtp-container label {
+  font-size: clamp(0.8em, 1.5vw, 1.5em);
+}
+
+.gtp-container p {
+  color: #81AFDD;
+  font-size: clamp(0.8em, 1vw, 1em);
+  -webkit-padding-end: 20%;
+          padding-inline-end: 20%;
+}
+
+.gtp-background {
+  -webkit-filter: blur();
+          filter: blur();
+}
+
+.gtp-background-bg {
+  background: radial-gradient(circle at 100% 100%, #042Cf4 0%, #1878de 0%, #0000003f 20%), radial-gradient(circle at 0% 0%, #042Cf4 0%, #1878de 0%, #042c543f 10%);
+  background-color: #042C54;
+}
+
+.what-is-container {
+  text-align: left;
+  justify-items: left;
+}
+
+.what-is-title {
+  width: 50%;
+  gap: 0;
+}
+
+.possibilities-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.possibilities-container .possibilities-text {
+  font-size: clamp(1.4em, 2vw, 2em);
+  text-align: left;
+  font-weight: 800;
+  width: 33%;
+}
+
+.possibilities-container a {
+  color: #FF8A71;
+  text-decoration: none;
+  font-size: clamp(0.7em, 1vw, 1em);
+  -webkit-padding-end: 10%;
+          padding-inline-end: 10%;
+}
+
+.extras-container {
+  text-align: left;
+  gap: 1em;
+}
+/*# sourceMappingURL=gtp.css.map */

@@ -14,7 +14,7 @@ const Header = () => {
             <div className='left-right-container flex'>
                 <div className='header-right'>
                     <div className='text-container'>
-                        <label className='header-title'>Let's Build Something amazing with GPT-3 OpenAI</label>
+                        <label className='header-title gradient-text'>Let's Build Something amazing with GPT-3 OpenAI</label>
                     </div>
                     <div className='text-container text-clamp'>
                         <label className='header-desc'>Yet bed any for travelling assistance indulgence unpleasing. 
@@ -22,7 +22,7 @@ const Header = () => {
                         Indulgence way everything joy alteration boisterous the attachment. 
                         Party we years to order allow asked of.</label>
                     </div>
-                    <div className='header-start-container flex'>
+                    <div className='flex header-start-container'>
                         <input className='header-input' placeholder='Your email address'></input><button className='header-button'>Get Started</button>
                     </div>
                     <div className='header-footer-container flex'>

@@ -26,10 +26,6 @@
 }
 
 .header-title {
-  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: clamp(1.2em, 5vw, 4em);
   line-height: 1.2em;
   letter-spacing: -4%;
@@ -51,13 +47,15 @@
 
 .face-image {
   width: clamp(400px, 100%, 1200px);
+  aspect-ratio: 1/1;
+  width: calc(max(45vw, 45vh));
 }
 
 .header-start-container {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   justify-items: left;
-  gap: 0;
+  gap: 0 !important;
   margin-block: 2em;
 }
 
@@ -123,6 +121,12 @@
 @media (max-width: 1000px) {
   .logo-img {
     width: 8vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .header-left {
+    background-repeat: no-repeat;
   }
 }
 /*# sourceMappingURL=header.css.map */

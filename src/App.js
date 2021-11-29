@@ -1,6 +1,7 @@
 import './App.css';
 import Navigation from './components/navigation/navigation';
 import Header from './components/header/header';
+import GTP from './components/GTP/gtp';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <Navigation></Navigation>
         <Header></Header>
+        <GTP></GTP>
       </header>
     </div>
   );
