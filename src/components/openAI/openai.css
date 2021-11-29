@@ -1,0 +1,83 @@
+@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0;
+}
+
+.open-ai-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10em;
+  text-align: left;
+}
+
+.open-ai-container a {
+  text-decoration: none;
+}
+
+.title-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2em;
+  height: 100%;
+  width: 33%;
+  -webkit-padding-end: 2em;
+          padding-inline-end: 2em;
+}
+
+.title-col label {
+  font-size: clamp(1em, 2vw, 2em);
+  font-weight: 800;
+}
+
+.title-col a {
+  color: #FF8A71;
+  font-size: clamp(0.7em, 1vw, 1em);
+}
+
+.heading-col {
+  width: 66%;
+  font-size: clamp(0.7em, 1vw, 1.1em);
+  font-weight: 800;
+}
+
+.heading-col .heading-title {
+  width: 20%;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.heading-col .label-title {
+  margin-top: -0.4em;
+}
+
+.heading-col .label-desc {
+  font-size: clamp(0.6em, 0.9vw, 1em);
+  font-weight: 400;
+  color: #81AFDD;
+}
+
+.mt {
+  margin-top: 3em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.desc-col {
+  gap: 2em;
+}
+
+.gap-5 {
+  gap: 5em;
+}
+/*# sourceMappingURL=openai.css.map */

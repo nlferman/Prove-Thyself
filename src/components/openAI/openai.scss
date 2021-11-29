@@ -1,0 +1,72 @@
+@import '../../App.css';
+@import '../../CSS-Resources/colors.scss';
+
+.flex-col {
+    flex-direction: column;
+    gap: 0;
+}
+
+.open-ai-container {
+    flex-direction: column;
+    margin-top: 10em;
+    text-align: left;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.title-col {
+    flex-direction: column;
+    gap: 2em;
+    height: 100%;
+    width: 33%;
+    padding-inline-end: 2em;
+
+    label {
+        font-size: clamp(1em, 2vw, 2em);
+        font-weight: 800;
+    }
+
+    a {
+        color: $secondary-links;
+        font-size: clamp(0.7em, 1vw, 1em);
+    }
+}
+
+.heading-col {
+    width: 66%;
+    font-size: clamp(0.7em, 1vw, 1.1em);
+    font-weight: 800;
+
+    .heading-title {
+        width: 20%;
+        flex: none;
+    }
+
+    .label-title {
+        margin-top: -0.4em;
+    }
+
+    .label-desc {
+        font-size: clamp(0.6em, 0.9vw, 1em);
+        font-weight: 400;
+        color: $description-text;
+    }
+}
+
+.mt {
+    margin-top: 3em;
+
+    &-1 {
+        margin-top: 1em;
+    }
+}
+
+.desc-col {
+    gap: 2em;
+}
+
+.gap-5{
+    gap: 5em;
+}

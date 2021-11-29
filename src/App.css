@@ -9,7 +9,7 @@
   font-family: manrope, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: radial-gradient(circle at 0% 0%, #002853 0%, #002853 0%, #040c18 50%);
+  background: radial-gradient(circle at 0% 0%, #002853 0%, #002853 0%, rgba(4, 12, 24, 0.25) 50%), radial-gradient(circle at 100% 40%, #002853 0%, #002853 0%, rgba(4, 12, 24, 0.25) 15%), radial-gradient(circle at 0% 93%, #002853 0%, #002853 0%, #040c18 20%);
 }
 
 .flex {
