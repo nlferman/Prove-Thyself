@@ -1,0 +1,115 @@
+@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.case-studies-container {
+  -webkit-margin-before: 8em;
+          margin-block-start: 8em;
+  text-align: left;
+}
+
+.case-studies-container img {
+  width: 100%;
+}
+
+.title {
+  width: 50%;
+  -webkit-margin-after: 8em;
+          margin-block-end: 8em;
+}
+
+.title label {
+  font-size: clamp(1.2em, 4vw, 4em);
+  line-height: 1.2em;
+  letter-spacing: -4%;
+  font-weight: 800;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 3em;
+      grid-template-areas: "hole face chain" "hole zero-ones caution";
+}
+
+.hole {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: hole;
+}
+
+.face {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: face;
+}
+
+.chain {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: chain;
+}
+
+.zero-ones {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: zero-ones;
+}
+
+.caution {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: caution;
+}
+
+.article-backdrop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #042C54;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 100%;
+  padding-inline: 2em;
+}
+
+.article-backdrop p {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-before: 2em;
+          margin-block-start: 2em;
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+  font-weight: 700;
+}
+
+.article-backdrop label {
+  font-size: clamp(0.7em, 1.5vw, 2em);
+  font-weight: 800;
+}
+
+.article-backdrop a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  -webkit-padding-after: 2em;
+          padding-block-end: 2em;
+  -webkit-padding-before: 4em;
+          padding-block-start: 4em;
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .grid {
+    gap: 1.5em;
+  }
+}
+/*# sourceMappingURL=caseStudies.css.map */

@@ -1,0 +1,89 @@
+@import '../../App.css';
+@import '../../CSS-Resources/colors.scss';
+
+.case-studies-container {
+    margin-block-start: 8em;
+    text-align: left;
+
+    img {
+        width: 100%;
+    }
+}
+
+.title {
+    width: 50%;
+    margin-block-end: 8em;
+    label {
+        font-size: clamp(1.2em, 4vw, 4em);
+        line-height: 1.2em;
+        letter-spacing: -4%;
+        font-weight: 800;
+    }
+}
+
+.grid {
+    display: grid;
+    gap: 3em;
+
+    grid-template-areas:
+    "hole face chain"
+    "hole zero-ones caution";
+}
+
+.hole {
+    grid-area: hole;
+}
+
+.face {
+    grid-area: face;
+}
+
+.chain {
+    grid-area: chain;
+}
+
+.zero-ones {
+    grid-area: zero-ones;
+}
+
+.caution {
+    grid-area: caution;
+}
+
+.article-backdrop {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color-block;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+    padding-inline: 2em;
+
+    p {
+        margin-block-end: 1em;
+        margin-block-start: 2em;
+        font-size: clamp(0.5em, 0.8vw, 0.9em);
+        font-weight: 700;
+    }
+
+    label {
+        font-size: clamp(0.7em, 1.5vw, 2em);
+        font-weight: 800;
+    }
+
+    a {
+        display: inline-flex;
+        text-decoration: none;
+        color: white;
+        padding-block-end: 2em;
+        padding-block-start: 4em;
+        font-size: clamp(0.5em, 0.8vw, 0.9em);
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid {
+        gap: 1.5em;
+    }
+}
