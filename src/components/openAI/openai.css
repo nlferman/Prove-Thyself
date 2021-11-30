@@ -1,4 +1,9 @@
 @import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.title-size {
+  font-size: clamp(1em, 2vw, 2em);
+  font-weight: 800;
+}
+
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -30,11 +35,6 @@
   width: 33%;
   -webkit-padding-end: 2em;
           padding-inline-end: 2em;
-}
-
-.title-col label {
-  font-size: clamp(1em, 2vw, 2em);
-  font-weight: 800;
 }
 
 .title-col a {
@@ -79,5 +79,102 @@
 
 .gap-5 {
   gap: 5em;
+}
+
+.middle-container {
+  gap: 1em;
+}
+
+.middle-container .image {
+  -webkit-margin-start: 2em;
+          margin-inline-start: 2em;
+}
+
+.middle-container img {
+  width: 100%;
+}
+
+.middle-container .content-container {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-block: 1em;
+}
+
+.middle-container .content-container .content-desc {
+  font-size: clamp(0.7em, 1vw, 1em);
+  font-weight: 400;
+  color: #81AFDD;
+}
+
+.middle-container .content-container p {
+  margin-block: 0.5em;
+  width: 70%;
+}
+
+.middle-container .content-container a {
+  text-decoration: none;
+  font-size: clamp(0.7em, 1vw, 1em);
+}
+
+.middle-container .content-container .blue-a {
+  color: #71E5FF;
+}
+
+.middle-container .content-container .red-a {
+  color: #FF8A71;
+}
+
+.bottom-container {
+  width: 100%;
+}
+
+.bottom-container .bottom-content {
+  width: 100%;
+  border-radius: 10.72px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-block: 2.5em;
+  padding-inline: 2em;
+}
+
+.bottom-container .bottom-content .desc {
+  color: #0e0e0e;
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+  font-weight: 500;
+}
+
+.bottom-container .bottom-content .heading {
+  color: black;
+  font-size: clamp(0.7em, 1vw, 1em);
+  font-weight: 800;
+}
+
+.bottom-container .bottom-content p {
+  margin-block: 0.5em;
+}
+
+.bottom-container .bottom-content .get-started-button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 40px;
+  padding-inline: 2em;
+  padding-block: 1em;
+}
+
+@media (max-width: 735px) {
+  .middle-container .content-container p {
+    width: 85%;
+  }
+}
+
+@media (max-width: 537px) {
+  .middle-container .content-container p {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=openai.css.map */

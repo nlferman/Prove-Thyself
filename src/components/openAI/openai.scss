@@ -1,6 +1,11 @@
 @import '../../App.css';
 @import '../../CSS-Resources/colors.scss';
 
+.title-size {
+    font-size: clamp(1em, 2vw, 2em);
+    font-weight: 800;
+}
+
 .flex-col {
     flex-direction: column;
     gap: 0;
@@ -22,11 +27,6 @@
     height: 100%;
     width: 33%;
     padding-inline-end: 2em;
-
-    label {
-        font-size: clamp(1em, 2vw, 2em);
-        font-weight: 800;
-    }
 
     a {
         color: $secondary-links;
@@ -69,4 +69,102 @@
 
 .gap-5{
     gap: 5em;
+}
+
+.middle-container {
+    gap: 1em;
+    
+    .image {
+        margin-inline-start: 2em;
+    }
+    img {
+        width: 100%;
+    }
+
+    .content-container {
+        align-self: flex-end;
+        margin-block: 1em;
+
+        .content-desc {
+            font-size: clamp(0.7em, 1vw, 1em);
+            font-weight: 400;
+            color: $description-text;
+        }
+
+        p {
+            margin-block: 0.5em;
+            width: 70%;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: clamp(0.7em, 1vw, 1em);
+        }
+
+        .blue-a {
+            color: #71E5FF;
+        }
+
+        .red-a {
+            color: $secondary-links;
+        }
+    }
+}
+
+.bottom-container {
+    width: 100%;
+
+    .bottom-content {
+        width: 100%;
+        border-radius: 10.72px;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 2.5em;
+        padding-inline: 2em;
+        
+        .desc {
+            color: #0e0e0e;
+            font-size: clamp(0.5em, 0.8vw, 0.9em);
+            font-weight: 500;
+        }
+
+        .heading {
+            color: black;
+            font-size: clamp(0.7em, 1vw, 1em);
+            font-weight: 800;
+        }
+
+        p {
+            margin-block: 0.5em;
+        }
+
+        .get-started-button {
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 40px;
+            padding-inline: 2em;
+            padding-block: 1em;
+        }
+    }
+}
+
+@media (max-width: 735px) {
+    .middle-container {
+        .content-container {
+            p {
+                width: 85%;
+            }
+        }
+    }
+}
+
+@media (max-width: 537px) {
+    .middle-container {
+        .content-container {
+            p {
+                width: 100%;
+            }
+        }
+    }
 }

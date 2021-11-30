@@ -1,11 +1,12 @@
 import "./openai.css";
+import VR_Lady from '../../images/OpenAI/VR_Lady_Full.png';
 
 const openAI = () => {
     return (
         <section id='OpenAI' className='open-ai-container open-ai-background-bg flex'>
             <div className='top-container flex'>
                 <div className='title-col flex flex-col'>
-                    <label className='gradient-text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</label>
+                    <label className='gradient-text title-size'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</label>
                     <a href='#' target='_blank'>Request Early Access To Get Started</a>
                 </div>
                 <div className='heading-col flex flex-col'>
@@ -49,10 +50,28 @@ const openAI = () => {
                 </div>
             </div>
             <div className='middle-container flex'>
-                
+                <div className='feature-container flex'>
+                    <div className='image'>
+                        <img src={VR_Lady} alt='My Apps' />
+                    </div>
+                </div>
+                <div className='content-container flex flex-col'>
+                    <a className='blue-a' href='#' target='_blank'>Request Early Access To Get Started</a>
+                    <p className='content-title gradient-text title-size'>The possibilities are beyond your imagination</p>
+                    <p className='content-desc'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                    <a className='red-a' href='#' target='_blank'>Request Early Access To Get Started</a>
+                </div>
             </div>
             <div className='bottom-container flex'>
-                
+                <div className='bottom-content gradient-bg flex'>
+                    <div className='flex flex-col'>
+                        <p className='desc'>Request Early Access to Get Started</p>
+                        <p className='heading'>Register today & start exploring the endless possiblities.</p>
+                    </div>
+                    <div className='button-container'>
+                        <button className='get-started-button'><label>Get Started</label></button>
+                    </div>
+                </div>
             </div>
         </section>
     )
