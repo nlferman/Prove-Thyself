@@ -1,0 +1,95 @@
+@import url(c:\Users\nferman\Web Projects\SF\Prove-Thyself\src\App.css);
+.footer-container {
+  width: 100%;
+  background-color: #031B34;
+  -webkit-margin-before: 10em;
+          margin-block-start: 10em;
+  -webkit-padding-before: 5em;
+          padding-block-start: 5em;
+  -webkit-padding-start: 10vw;
+          padding-inline-start: 10vw;
+  -webkit-margin-start: -5vw;
+          margin-inline-start: -5vw;
+}
+
+.title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 75%;
+  -webkit-margin-start: -5vw;
+          margin-inline-start: -5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title p {
+  font-size: clamp(1.2em, 5vw, 4em);
+  font-weight: 800;
+}
+
+.title a {
+  font-size: clamp(0.8em, 1vw, 1em);
+  text-decoration: none;
+  color: white;
+  border: solid white 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1em;
+}
+
+.links {
+  width: 100%;
+  text-align: left;
+  gap: clamp(2em, 10vw, 8em);
+}
+
+.links .GTP-3-container {
+  width: 30%;
+}
+
+.links .GTP-3-container img {
+  width: clamp(60px, 30%, 100px);
+}
+
+.links .GTP-3-container p {
+  -webkit-margin-before: 2em;
+          margin-block-start: 2em;
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+  width: clamp(120px, 40%, 200px);
+}
+
+.links .links-col label {
+  font-size: clamp(0.6em, 0.9vw, 1em);
+  font-weight: 800;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.links .links-col p {
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+}
+
+.links .links-col a {
+  margin-block: 1em;
+  text-decoration: none;
+  color: white;
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+}
+
+.copyright {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-margin-before: 3em;
+          margin-block-start: 3em;
+  -webkit-margin-start: -5vw;
+          margin-inline-start: -5vw;
+}
+
+.copyright p {
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
+}
+/*# sourceMappingURL=footers.css.map */
