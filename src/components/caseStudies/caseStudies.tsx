@@ -17,7 +17,7 @@ const CaseStudies = () => {
                     <div className='flex flex-col flex-spread hole'>
                         <img src={Hole} alt='Coded Black-Hole' />
                         <div className='article-backdrop'>
-                            <div>
+                            <div className='first-article'>
                                 <p>Sep 26, 2021</p>
                                 <label>GPT-3 and Open  AI is the future. Let us explore how it is?</label>
                             </div>

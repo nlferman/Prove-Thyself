@@ -45,12 +45,6 @@
   aspect-ratio: 1/1;
 }
 
-.face-image {
-  width: clamp(400px, 100%, 1200px);
-  aspect-ratio: 1/1;
-  width: calc(max(45vw, 45vh));
-}
-
 .header-start-container {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -60,42 +54,50 @@
 }
 
 .header-input {
-  width: clamp(20em, 30vw, 75em);
-  padding: clamp(0.5em, 2vw, 2em);
+  width: clamp(20em, 23vw, 75em);
+  padding: clamp(0.5em, 1.5vw, 2em);
   background-color: #052D56;
+  font-size: clamp(0.5em, 2vw, 1.5em);
+  font-weight: 400;
+  color: white;
 }
 
 .header-input::-webkit-input-placeholder, .header-input::-webkit-input-placeholder {
   color: #3D6184;
   font-size: clamp(0.5em, 2vw, 1.5em);
+  font-weight: 400;
 }
 
 .header-input::placeholder, .header-input::-webkit-input-placeholder {
   color: #3D6184;
   font-size: clamp(0.5em, 2vw, 1.5em);
+  font-weight: 400;
 }
 
 .header-button {
+  width: clamp(10em, 15vw, 15em);
   background-color: #FF4820;
   padding: clamp(0.5em, 2vw, 2em);
+  font-size: clamp(0.5em, 2vw, 1.5em);
   color: white;
   border: none;
   border-radius: 0 5px 5px 0;
+  font-weight: 700;
 }
 
 .header-footer-container {
-  gap: 0;
+  gap: 1em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .header-social-icons {
-  width: calc(max(40%, 100px));
+  width: calc(max(30%, 100px));
 }
 
 .header-footer-desc {
-  font-size: clamp(6px, 1vw, 12px);
+  font-size: clamp(0.5em, 0.8vw, 0.9em);
 }
 
 .header-logos {

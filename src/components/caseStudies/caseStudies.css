@@ -16,7 +16,7 @@
 }
 
 .title label {
-  font-size: clamp(1.2em, 4vw, 4em);
+  font-size: clamp(1.2em, 5vw, 4em);
   line-height: 1.2em;
   letter-spacing: -4%;
   font-weight: 800;
@@ -89,7 +89,7 @@
 }
 
 .article-backdrop label {
-  font-size: clamp(0.7em, 1.5vw, 2em);
+  font-size: clamp(0.7em, 1vw, 1.1em);
   font-weight: 800;
 }
 
@@ -105,6 +105,10 @@
           padding-block-start: 4em;
   font-size: clamp(0.5em, 0.8vw, 0.9em);
   font-weight: 700;
+}
+
+.article-backdrop .first-article label {
+  font-size: clamp(0.8em, 1.5vw, 2em);
 }
 
 @media (max-width: 992px) {

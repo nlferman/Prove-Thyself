@@ -1,5 +1,6 @@
 @import '../../App.css';
 @import '../../CSS-Resources/colors.scss';
+@import '../../CSS-Resources/font-sizes.scss';
 
 .case-studies-container {
     margin-block-start: 8em;
@@ -14,7 +15,7 @@
     width: 50%;
     margin-block-end: 8em;
     label {
-        font-size: clamp(1.2em, 4vw, 4em);
+        font-size: $large-title;
         line-height: 1.2em;
         letter-spacing: -4%;
         font-weight: 800;
@@ -62,12 +63,12 @@
     p {
         margin-block-end: 1em;
         margin-block-start: 2em;
-        font-size: clamp(0.5em, 0.8vw, 0.9em);
+        font-size: $tiny-text;
         font-weight: 700;
     }
 
     label {
-        font-size: clamp(0.7em, 1.5vw, 2em);
+        font-size: $heading-text;
         font-weight: 800;
     }
 
@@ -79,6 +80,12 @@
         padding-block-start: 4em;
         font-size: clamp(0.5em, 0.8vw, 0.9em);
         font-weight: 700;
+    }
+
+    .first-article {
+        label {
+            font-size: $large-heading;
+        }
     }
 }
 

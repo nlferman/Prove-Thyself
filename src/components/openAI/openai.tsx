@@ -69,7 +69,7 @@ const openAI = () => {
                         <p className='heading'>Register today & start exploring the endless possiblities.</p>
                     </div>
                     <div className='button-container'>
-                        <button className='get-started-button'><label>Get Started</label></button>
+                        <button className='get-started-button'>Get Started</button>
                     </div>
                 </div>
             </div>

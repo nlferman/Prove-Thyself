@@ -1,8 +1,9 @@
 @import '../../App.css';
 @import '../../CSS-Resources/colors.scss';
+@import '../../CSS-Resources/font-sizes.scss';
 
 .title-size {
-    font-size: clamp(1em, 2vw, 2em);
+    font-size: $medium-title;
     font-weight: 800;
 }
 
@@ -30,13 +31,13 @@
 
     a {
         color: $secondary-links;
-        font-size: clamp(0.7em, 1vw, 1em);
+        font-size: $small-desc;
     }
 }
 
 .heading-col {
     width: 66%;
-    font-size: clamp(0.7em, 1vw, 1.1em);
+    font-size: $heading-text;
     font-weight: 800;
 
     .heading-title {
@@ -49,7 +50,7 @@
     }
 
     .label-desc {
-        font-size: clamp(0.6em, 0.9vw, 1em);
+        font-size: $tiny-desc;
         font-weight: 400;
         color: $description-text;
     }
@@ -86,7 +87,7 @@
         margin-block: 1em;
 
         .content-desc {
-            font-size: clamp(0.7em, 1vw, 1em);
+            font-size: $normal-desc;
             font-weight: 400;
             color: $description-text;
         }
@@ -98,7 +99,7 @@
 
         a {
             text-decoration: none;
-            font-size: clamp(0.7em, 1vw, 1em);
+            font-size: $small-desc;
         }
 
         .blue-a {
@@ -124,13 +125,13 @@
         
         .desc {
             color: #0e0e0e;
-            font-size: clamp(0.5em, 0.8vw, 0.9em);
+            font-size: $tiny-text;
             font-weight: 500;
         }
 
         .heading {
             color: black;
-            font-size: clamp(0.7em, 1vw, 1em);
+            font-size: $heading-text;
             font-weight: 800;
         }
 
@@ -145,6 +146,7 @@
             border-radius: 40px;
             padding-inline: 2em;
             padding-block: 1em;
+            font-size: $heading-text;
         }
     }
 }

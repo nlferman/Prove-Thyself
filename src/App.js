@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import GTP from './components/GTP/gtp';
 import OpenAI from './components/openAI/openai';
 import CaseStudies from './components/caseStudies/caseStudies';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <GTP></GTP>
         <OpenAI></OpenAI>
         <CaseStudies></CaseStudies>
+        <Footer></Footer>
       </header>
     </div>
   );
