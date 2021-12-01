@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.tff") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-weight: 800;
+  src: local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.tff") format("truetype");
+}
+/*# sourceMappingURL=fonts.css.map */

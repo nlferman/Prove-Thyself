@@ -1,0 +1,15 @@
+$tiny-text: clamp(0.5em, 0.8vw, 0.9em);
+
+$tiny-desc: clamp(0.6em, 0.9vw, 1em);
+$small-desc: clamp(0.7em, 0.9vw, 0.9em);
+$normal-desc: clamp(0.8em, 1vw, 1em);
+$big-desc: clamp(0.5em, 2vw, 1.2em);
+
+$input-text: clamp(0.5em, 2vw, 1.5em);
+
+$heading-text: clamp(0.7em, 1vw, 1.1em);
+$large-heading: clamp(0.8em, 1.5vw, 2em);
+
+$normal-title: clamp(0.8em, 1.5vw, 1.5em);
+$medium-title: clamp(1.4em, 2vw, 2em);
+$large-title: clamp(1.2em, 5vw, 4em);
